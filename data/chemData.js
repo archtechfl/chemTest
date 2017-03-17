@@ -1,2529 +1,2529 @@
 export const chemicals = [
  {
-   "Name": "Acetaldehyde",
-   "Health": 2,
-   "Fire": 4,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Acetaldehyde",
+   "health": 2,
+   "fire": 4,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Acetic acid (glacial)",
-   "Health": 2,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Acetic acid (glacial)",
+   "health": 2,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Acetic anhydride",
-   "Health": 2,
-   "Fire": 2,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Acetic anhydride",
+   "health": 2,
+   "fire": 2,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Acetone",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Acetone",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Acetone cyanohydrin",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Acetone cyanohydrin",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Acetonitrile",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Acetonitrile",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Acetophenone",
-   "Health": 1,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Acetophenone",
+   "health": 1,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Acetyl chloride",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Acetyl chloride",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Acetylene",
-   "Health": 1,
-   "Fire": 4,
-   "Reactivity": 3,
-   "Special": ""
+   "name": "Acetylene",
+   "health": 1,
+   "fire": 4,
+   "reactivity": 3,
+   "special": ""
  },
  {
-   "Name": "Acrolein, inhibited",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 3,
-   "Special": ""
+   "name": "Acrolein, inhibited",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 3,
+   "special": ""
  },
  {
-   "Name": "Acrylamide",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Acrylamide",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Acrylic acid (glacial)",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Acrylic acid (glacial)",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Acrylonitrile",
-   "Health": 4,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Acrylonitrile",
+   "health": 4,
+   "fire": 3,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Adiponitrile",
-   "Health": 4,
-   "Fire": 2,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Adiponitrile",
+   "health": 4,
+   "fire": 2,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Alkylaluminums",
-   "Health": 3,
-   "Fire": 4,
-   "Reactivity": 3,
-   "Special": "w"
+   "name": "Alkylaluminums",
+   "health": 3,
+   "fire": 4,
+   "reactivity": 3,
+   "special": "w"
  },
  {
-   "Name": "Ally Chlorocarbonate",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Ally Chlorocarbonate",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Ally alcohol",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Ally alcohol",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Ally bromide",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Ally bromide",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Ally chloride",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Ally chloride",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Allylamine",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Allylamine",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Aluminum",
-   "Health": 0,
-   "Fire": 1,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Aluminum",
+   "health": 0,
+   "fire": 1,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Aluminum Chloride",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Aluminum Chloride",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Aluminum Phosphide",
-   "Health": 3,
-   "Fire": 4,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Aluminum Phosphide",
+   "health": 3,
+   "fire": 4,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Ammonia (anhydrous)",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Ammonia (anhydrous)",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Ammonium Dichromate",
-   "Health": 2,
-   "Fire": 1,
-   "Reactivity": 1,
-   "Special": "ox"
+   "name": "Ammonium Dichromate",
+   "health": 2,
+   "fire": 1,
+   "reactivity": 1,
+   "special": "ox"
  },
  {
-   "Name": "Ammonium Fluoride",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Ammonium Fluoride",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Ammonium Nitrate",
-   "Health": 1,
-   "Fire": 0,
-   "Reactivity": 3,
-   "Special": "ox"
+   "name": "Ammonium Nitrate",
+   "health": 1,
+   "fire": 0,
+   "reactivity": 3,
+   "special": "ox"
  },
  {
-   "Name": "Ammonium Perchlorate",
-   "Health": 1,
-   "Fire": 0,
-   "Reactivity": 4,
-   "Special": "ox"
+   "name": "Ammonium Perchlorate",
+   "health": 1,
+   "fire": 0,
+   "reactivity": 4,
+   "special": "ox"
  },
  {
-   "Name": "Ammonium Permanganate",
-   "Health": 1,
-   "Fire": 0,
-   "Reactivity": 3,
-   "Special": "ox"
+   "name": "Ammonium Permanganate",
+   "health": 1,
+   "fire": 0,
+   "reactivity": 3,
+   "special": "ox"
  },
  {
-   "Name": "Amyl Mercaptan",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Amyl Mercaptan",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Amyl Nitrate",
-   "Health": 2,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Amyl Nitrate",
+   "health": 2,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Amylamine",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Amylamine",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Aniline",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Aniline",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Antimony pentachloride",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Antimony pentachloride",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Antimony Pentafluoride",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Antimony Pentafluoride",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Antimony Sulfide, solid",
-   "Health": 2,
-   "Fire": 1,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Antimony Sulfide, solid",
+   "health": 2,
+   "fire": 1,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Arsenic Pentafluoride",
-   "Health": 4,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Arsenic Pentafluoride",
+   "health": 4,
+   "fire": 0,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Arsenic Pentoxide",
-   "Health": 2,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Arsenic Pentoxide",
+   "health": 2,
+   "fire": 0,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Arsenic Trichloride",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Arsenic Trichloride",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Arsenic Trioxide",
-   "Health": 2,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Arsenic Trioxide",
+   "health": 2,
+   "fire": 0,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Arsenic Trisulfide",
-   "Health": 2,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Arsenic Trisulfide",
+   "health": 2,
+   "fire": 0,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Arsine",
-   "Health": 4,
-   "Fire": 4,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Arsine",
+   "health": 4,
+   "fire": 4,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Barium Chlorate",
-   "Health": 2,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": "ox"
+   "name": "Barium Chlorate",
+   "health": 2,
+   "fire": 0,
+   "reactivity": 1,
+   "special": "ox"
  },
  {
-   "Name": "Benzaldehyde",
-   "Health": 2,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Benzaldehyde",
+   "health": 2,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Benzene",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Benzene",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Benzotrifluoride",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Benzotrifluoride",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Benzoyl Chloride",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Benzoyl Chloride",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Beryllium Metal",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Beryllium Metal",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Boron Tribromide",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Boron Tribromide",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Boron Trifluoride",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Boron Trifluoride",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Bromine",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": "ox"
+   "name": "Bromine",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 0,
+   "special": "ox"
  },
  {
-   "Name": "Bromine Pentafluoride",
-   "Health": 4,
-   "Fire": 0,
-   "Reactivity": 3,
-   "Special": "w, ox"
+   "name": "Bromine Pentafluoride",
+   "health": 4,
+   "fire": 0,
+   "reactivity": 3,
+   "special": "w, ox"
  },
  {
-   "Name": "Bromine Trifluoride",
-   "Health": 4,
-   "Fire": 0,
-   "Reactivity": 3,
-   "Special": "w, ox"
+   "name": "Bromine Trifluoride",
+   "health": 4,
+   "fire": 0,
+   "reactivity": 3,
+   "special": "w, ox"
  },
  {
-   "Name": "Bromopentane, 1-",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Bromopentane, 1-",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Bromopropyne, 3-",
-   "Health": 4,
-   "Fire": 3,
-   "Reactivity": 4,
-   "Special": ""
+   "name": "Bromopropyne, 3-",
+   "health": 4,
+   "fire": 3,
+   "reactivity": 4,
+   "special": ""
  },
  {
-   "Name": "Butadiene, inhibited",
-   "Health": 2,
-   "Fire": 4,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Butadiene, inhibited",
+   "health": 2,
+   "fire": 4,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Butanol, 1-",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Butanol, 1-",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Butanol, 2-",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Butanol, 2-",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Butyl Acrylate, inhibited",
-   "Health": 2,
-   "Fire": 2,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Butyl Acrylate, inhibited",
+   "health": 2,
+   "fire": 2,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Butyl Ether",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Butyl Ether",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Butyl acetate, n-",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Butyl acetate, n-",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Butyl acetate, s-",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Butyl acetate, s-",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Butylamine",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Butylamine",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Butylene Oxide",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Butylene Oxide",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Butyllithium",
-   "Health": 3,
-   "Fire": 4,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Butyllithium",
+   "health": 3,
+   "fire": 4,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Butyraldehyde",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Butyraldehyde",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Butyric Acid",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Butyric Acid",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Calcium Carbide",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Calcium Carbide",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Calcium Chlorate",
-   "Health": 1,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": "__ ox"
+   "name": "Calcium Chlorate",
+   "health": 1,
+   "fire": 0,
+   "reactivity": 1,
+   "special": "__ ox"
  },
  {
-   "Name": "Calcium Cyanide, solid",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Calcium Cyanide, solid",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Calcium Hypochlorite",
-   "Health": 1,
-   "Fire": 0,
-   "Reactivity": 2,
-   "Special": "ox"
+   "name": "Calcium Hypochlorite",
+   "health": 1,
+   "fire": 0,
+   "reactivity": 2,
+   "special": "ox"
  },
  {
-   "Name": "Calcium Oxide",
-   "Health": 1,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Calcium Oxide",
+   "health": 1,
+   "fire": 0,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Calcium, metal",
-   "Health": 1,
-   "Fire": 1,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Calcium, metal",
+   "health": 1,
+   "fire": 1,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Carbon Disulfide",
-   "Health": 2,
-   "Fire": 4,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Carbon Disulfide",
+   "health": 2,
+   "fire": 4,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Carbon Monixide",
-   "Health": 3,
-   "Fire": 4,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Carbon Monixide",
+   "health": 3,
+   "fire": 4,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Carbon Tetrachloride",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Carbon Tetrachloride",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Chlorine",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": "ox"
+   "name": "Chlorine",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 0,
+   "special": "ox"
  },
  {
-   "Name": "Chlorine Trifluoride",
-   "Health": 4,
-   "Fire": 0,
-   "Reactivity": 3,
-   "Special": "w, ox"
+   "name": "Chlorine Trifluoride",
+   "health": 4,
+   "fire": 0,
+   "reactivity": 3,
+   "special": "w, ox"
  },
  {
-   "Name": "Chloroacetic Acid",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Chloroacetic Acid",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Chloroacetonitrile",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Chloroacetonitrile",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Chloroacetyl Chloride",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Chloroacetyl Chloride",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Chlorobenzene",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Chlorobenzene",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Chlorodiethyl Silane",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Chlorodiethyl Silane",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Chloroform",
-   "Health": 2,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Chloroform",
+   "health": 2,
+   "fire": 0,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Chlorophenols, liquid",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Chlorophenols, liquid",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Chlorophenols, solids",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Chlorophenols, solids",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Chloropicrin, liquid",
-   "Health": 4,
-   "Fire": 0,
-   "Reactivity": 3,
-   "Special": ""
+   "name": "Chloropicrin, liquid",
+   "health": 4,
+   "fire": 0,
+   "reactivity": 3,
+   "special": ""
  },
  {
-   "Name": "Chlorosilanes",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Chlorosilanes",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Chlorosulfonic Acid",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 2,
-   "Special": "w, ox"
+   "name": "Chlorosulfonic Acid",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 2,
+   "special": "w, ox"
  },
  {
-   "Name": "Chromic Acid, solid",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": "ox"
+   "name": "Chromic Acid, solid",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 1,
+   "special": "ox"
  },
  {
-   "Name": "Chromic chloride",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Chromic chloride",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Chromyl Chloride",
-   "Health": 2,
-   "Fire": 0,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Chromyl Chloride",
+   "health": 2,
+   "fire": 0,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Cresol(o-, m-, p-)",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Cresol(o-, m-, p-)",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Crotonaldehyde",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Crotonaldehyde",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Cumene",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Cumene",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Cyanoacetic Acid",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Cyanoacetic Acid",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Cyanogen Bromide",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Cyanogen Bromide",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Cyanogen Gas",
-   "Health": 4,
-   "Fire": 4,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Cyanogen Gas",
+   "health": 4,
+   "fire": 4,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Cyclohexane",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Cyclohexane",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Cyclohexanol",
-   "Health": 1,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Cyclohexanol",
+   "health": 1,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Cyclohexanone",
-   "Health": 1,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Cyclohexanone",
+   "health": 1,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Cyclohexylamine",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Cyclohexylamine",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Decaborane",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Decaborane",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Diamylamine",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Diamylamine",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Diborane",
-   "Health": 3,
-   "Fire": 4,
-   "Reactivity": 3,
-   "Special": "w"
+   "name": "Diborane",
+   "health": 3,
+   "fire": 4,
+   "reactivity": 3,
+   "special": "w"
  },
  {
-   "Name": "Dibutylamine",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Dibutylamine",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Dichloroacetyl Chloride",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Dichloroacetyl Chloride",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Dichloroanilines",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Dichloroanilines",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Dichlorobenzene",
-   "Health": 2,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Dichlorobenzene",
+   "health": 2,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Dichlorobutane, 1, 4-",
-   "Health": 2,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Dichlorobutane, 1, 4-",
+   "health": 2,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Dichlorodimethylether",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Dichlorodimethylether",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Dichloroethyl Ether, 2, 2-",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Dichloroethyl Ether, 2, 2-",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Dichloroethylene",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Dichloroethylene",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Dichloropropene, 1, 3-",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Dichloropropene, 1, 3-",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Dichlorosilane",
-   "Health": 3,
-   "Fire": 4,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Dichlorosilane",
+   "health": 3,
+   "fire": 4,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Diesel fuel (No. 1, 2 and 4)",
-   "Health": 0,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Diesel fuel (No. 1, 2 and 4)",
+   "health": 0,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Diethyl Sulfate",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Diethyl Sulfate",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Diethyl Telluride",
-   "Health": 2,
-   "Fire": 4,
-   "Reactivity": 3,
-   "Special": "w"
+   "name": "Diethyl Telluride",
+   "health": 2,
+   "fire": 4,
+   "reactivity": 3,
+   "special": "w"
  },
  {
-   "Name": "Diethylaluminum Chloride",
-   "Health": 3,
-   "Fire": 4,
-   "Reactivity": 3,
-   "Special": "w"
+   "name": "Diethylaluminum Chloride",
+   "health": 3,
+   "fire": 4,
+   "reactivity": 3,
+   "special": "w"
  },
  {
-   "Name": "Diethylamine",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Diethylamine",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Diethylenetriamine",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Diethylenetriamine",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Diethylzinc",
-   "Health": 1,
-   "Fire": 4,
-   "Reactivity": 3,
-   "Special": "w"
+   "name": "Diethylzinc",
+   "health": 1,
+   "fire": 4,
+   "reactivity": 3,
+   "special": "w"
  },
  {
-   "Name": "Diisopropyl Ether",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Diisopropyl Ether",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Diisopropylamine",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Diisopropylamine",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Diketene, inhibited",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Diketene, inhibited",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Dimethyl Ether",
-   "Health": 2,
-   "Fire": 4,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Dimethyl Ether",
+   "health": 2,
+   "fire": 4,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Dimethyl Sulfate",
-   "Health": 4,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Dimethyl Sulfate",
+   "health": 4,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Dimeethyl Sulfide",
-   "Health": 2,
-   "Fire": 4,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Dimeethyl Sulfide",
+   "health": 2,
+   "fire": 4,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Dimethylamine",
-   "Health": 3,
-   "Fire": 4,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Dimethylamine",
+   "health": 3,
+   "fire": 4,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Dimethylhydrazine",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Dimethylhydrazine",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Dinitroaniline, 2, 4-",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 3,
-   "Special": ""
+   "name": "Dinitroaniline, 2, 4-",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 3,
+   "special": ""
  },
  {
-   "Name": "Dinitrobenzene, 1, 2-",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 4,
-   "Special": ""
+   "name": "Dinitrobenzene, 1, 2-",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 4,
+   "special": ""
  },
  {
-   "Name": "Dinitrochlorobenzene",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 4,
-   "Special": ""
+   "name": "Dinitrochlorobenzene",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 4,
+   "special": ""
  },
  {
-   "Name": "Dinitrotoluene",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 3,
-   "Special": ""
+   "name": "Dinitrotoluene",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 3,
+   "special": ""
  },
  {
-   "Name": "Dioxane, 1, 4-",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Dioxane, 1, 4-",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Divinylbenzene",
-   "Health": 2,
-   "Fire": 2,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Divinylbenzene",
+   "health": 2,
+   "fire": 2,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Epichlorohydrin",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Epichlorohydrin",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Ethyl Acrylate, inhibited",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Ethyl Acrylate, inhibited",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Ethyl Chloride",
-   "Health": 2,
-   "Fire": 4,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Ethyl Chloride",
+   "health": 2,
+   "fire": 4,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Ethyl Chloroformate",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Ethyl Chloroformate",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Ethyl Ether",
-   "Health": 2,
-   "Fire": 4,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Ethyl Ether",
+   "health": 2,
+   "fire": 4,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Ethyl Methyl Ether",
-   "Health": 2,
-   "Fire": 4,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Ethyl Methyl Ether",
+   "health": 2,
+   "fire": 4,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Ethyl Nitrite",
-   "Health": 2,
-   "Fire": 4,
-   "Reactivity": 4,
-   "Special": ""
+   "name": "Ethyl Nitrite",
+   "health": 2,
+   "fire": 4,
+   "reactivity": 4,
+   "special": ""
  },
  {
-   "Name": "Ethyl Trichlorosilane",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Ethyl Trichlorosilane",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Ethyl acetate",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Ethyl acetate",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Ethylaniline, N-",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Ethylaniline, N-",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Eathylbenzene",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Eathylbenzene",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Ethylene",
-   "Health": 1,
-   "Fire": 4,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Ethylene",
+   "health": 1,
+   "fire": 4,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Ethylene Chlorohydrin",
-   "Health": 4,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Ethylene Chlorohydrin",
+   "health": 4,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Ethylene Cyanohydrin",
-   "Health": 2,
-   "Fire": 1,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Ethylene Cyanohydrin",
+   "health": 2,
+   "fire": 1,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Ethylene Dibromide",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Ethylene Dibromide",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Ethylene Dichloride",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Ethylene Dichloride",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Ethylene Oxide",
-   "Health": 2,
-   "Fire": 4,
-   "Reactivity": 3,
-   "Special": ""
+   "name": "Ethylene Oxide",
+   "health": 2,
+   "fire": 4,
+   "reactivity": 3,
+   "special": ""
  },
  {
-   "Name": "Ethylenediamine",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Ethylenediamine",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Ethyleneimine, inhibited",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 3,
-   "Special": ""
+   "name": "Ethyleneimine, inhibited",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 3,
+   "special": ""
  },
  {
-   "Name": "Ethylhexyl Acrylate, 2-",
-   "Health": 2,
-   "Fire": 2,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Ethylhexyl Acrylate, 2-",
+   "health": 2,
+   "fire": 2,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Fluoboric Acid",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Fluoboric Acid",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Fluorine",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 4,
-   "Special": "w"
+   "name": "Fluorine",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 4,
+   "special": "w"
  },
  {
-   "Name": "Formaldehyde, anhydrous",
-   "Health": 3,
-   "Fire": 4,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Formaldehyde, anhydrous",
+   "health": 3,
+   "fire": 4,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Formaldehyde, aqueous",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Formaldehyde, aqueous",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Formic Acid",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Formic Acid",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Fuel oil (Nos. 1-6)",
-   "Health": 0,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Fuel oil (Nos. 1-6)",
+   "health": 0,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Furfural",
-   "Health": 2,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Furfural",
+   "health": 2,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Gallium Arsenide",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Gallium Arsenide",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Gallium Phosphide",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Gallium Phosphide",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Gallium Trichloride",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Gallium Trichloride",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Gasoline",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Gasoline",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Germane",
-   "Health": 4,
-   "Fire": 4,
-   "Reactivity": 3,
-   "Special": ""
+   "name": "Germane",
+   "health": 4,
+   "fire": 4,
+   "reactivity": 3,
+   "special": ""
  },
  {
-   "Name": "Heptane, n-",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Heptane, n-",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Hexamethyldisilazane",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Hexamethyldisilazane",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Hexane, n-",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Hexane, n-",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Hexanol, n-",
-   "Health": 1,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Hexanol, n-",
+   "health": 1,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Hydrazine, anhydrous",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 3,
-   "Special": ""
+   "name": "Hydrazine, anhydrous",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 3,
+   "special": ""
  },
  {
-   "Name": "Hydroidic Acid",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Hydroidic Acid",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Hydrobromic Acid",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Hydrobromic Acid",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Hydrogen Chloride",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Hydrogen Chloride",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Hydrogen Cyanide",
-   "Health": 4,
-   "Fire": 4,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Hydrogen Cyanide",
+   "health": 4,
+   "fire": 4,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Hydrogen Fluoride",
-   "Health": 4,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Hydrogen Fluoride",
+   "health": 4,
+   "fire": 0,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Hydrogen Peroxide (35-52%)",
-   "Health": 2,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": "ox"
+   "name": "Hydrogen Peroxide (35-52%)",
+   "health": 2,
+   "fire": 0,
+   "reactivity": 1,
+   "special": "ox"
  },
  {
-   "Name": "Hydrogen Peroxide (>52%)",
-   "Health": 2,
-   "Fire": 0,
-   "Reactivity": 3,
-   "Special": "ox"
+   "name": "Hydrogen Peroxide (>52%)",
+   "health": 2,
+   "fire": 0,
+   "reactivity": 3,
+   "special": "ox"
  },
  {
-   "Name": "Hydrogen Sulfide",
-   "Health": 3,
-   "Fire": 4,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Hydrogen Sulfide",
+   "health": 3,
+   "fire": 4,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Hydrogen, gas",
-   "Health": 0,
-   "Fire": 4,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Hydrogen, gas",
+   "health": 0,
+   "fire": 4,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Hydrogen, liquefied",
-   "Health": 3,
-   "Fire": 4,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Hydrogen, liquefied",
+   "health": 3,
+   "fire": 4,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Hydroxylamine",
-   "Health": 2,
-   "Fire": 0,
-   "Reactivity": 3,
-   "Special": ""
+   "name": "Hydroxylamine",
+   "health": 2,
+   "fire": 0,
+   "reactivity": 3,
+   "special": ""
  },
  {
-   "Name": "Isobutyl acetate",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Isobutyl acetate",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Isophorone",
-   "Health": 2,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Isophorone",
+   "health": 2,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Isoprene",
-   "Health": 2,
-   "Fire": 4,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Isoprene",
+   "health": 2,
+   "fire": 4,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Isopropanol",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Isopropanol",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Isopropyl Formate",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Isopropyl Formate",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Isopropylamine",
-   "Health": 3,
-   "Fire": 4,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Isopropylamine",
+   "health": 3,
+   "fire": 4,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Kerosene",
-   "Health": 0,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Kerosene",
+   "health": 0,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Lead Arsenates",
-   "Health": 2,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Lead Arsenates",
+   "health": 2,
+   "fire": 0,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Lithium Alunimum Hydride",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Lithium Alunimum Hydride",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Lithium Hydride",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Lithium Hydride",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Lithium Metal",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Lithium Metal",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Magnesium (+alloys)",
-   "Health": 0,
-   "Fire": 1,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Magnesium (+alloys)",
+   "health": 0,
+   "fire": 1,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Maleic Anhydride",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Maleic Anhydride",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Mercuric Cyanide",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Mercuric Cyanide",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Mesityl Oxide",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Mesityl Oxide",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Methacrylic Acid, inhibited",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Methacrylic Acid, inhibited",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Methyl Acrylate, inhibited",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Methyl Acrylate, inhibited",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Methyl Bromide",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Methyl Bromide",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Methyl Butyraldehyde, 2-",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Methyl Butyraldehyde, 2-",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Methyl Chloride",
-   "Health": 2,
-   "Fire": 4,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Methyl Chloride",
+   "health": 2,
+   "fire": 4,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Methyl Chloromethyl Ether",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Methyl Chloromethyl Ether",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Methyl cyclopenate",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Methyl cyclopenate",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Methyl Formate",
-   "Health": 2,
-   "Fire": 4,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Methyl Formate",
+   "health": 2,
+   "fire": 4,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Methyl Hydrazine",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Methyl Hydrazine",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Methyl Isocyanate",
-   "Health": 4,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Methyl Isocyanate",
+   "health": 4,
+   "fire": 3,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Methyl methacrylate",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Methyl methacrylate",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Methyl Vinyl Ketone, inhibited",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Methyl Vinyl Ketone, inhibited",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Methyl acetate",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Methyl acetate",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Methyl alcohol",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Methyl alcohol",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Methyl ethyl keetone",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Methyl ethyl keetone",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Methyl mercaptan",
-   "Health": 2,
-   "Fire": 4,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Methyl mercaptan",
+   "health": 2,
+   "fire": 4,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Methyl-1-butene, 3-",
-   "Health": 2,
-   "Fire": 4,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Methyl-1-butene, 3-",
+   "health": 2,
+   "fire": 4,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Methyl-2-butanol, 2-",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Methyl-2-butanol, 2-",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Methyl-2-butanol, 3-",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Methyl-2-butanol, 3-",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Methyl-2-propanol, 2-",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Methyl-2-propanol, 2-",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Methyl-5-Pyridine, 2-",
-   "Health": 2,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Methyl-5-Pyridine, 2-",
+   "health": 2,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Methylamine, anhydrous",
-   "Health": 3,
-   "Fire": 4,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Methylamine, anhydrous",
+   "health": 3,
+   "fire": 4,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Methyldichlorosilane",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Methyldichlorosilane",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Methylene Chloride",
-   "Health": 2,
-   "Fire": 1,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Methylene Chloride",
+   "health": 2,
+   "fire": 1,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Methyltrichlorosilane",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Methyltrichlorosilane",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Monochloro-s-Triazinetrione Acid",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 2,
-   "Special": "w, ox"
+   "name": "Monochloro-s-Triazinetrione Acid",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 2,
+   "special": "w, ox"
  },
  {
-   "Name": "Monoethanolamine",
-   "Health": 2,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Monoethanolamine",
+   "health": 2,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Monoethylamine",
-   "Health": 3,
-   "Fire": 4,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Monoethylamine",
+   "health": 3,
+   "fire": 4,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Morpholine",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Morpholine",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Napthalene",
-   "Health": 2,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Napthalene",
+   "health": 2,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Natural Gas, gas",
-   "Health": 0,
-   "Fire": 4,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Natural Gas, gas",
+   "health": 0,
+   "fire": 4,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Natural Gas, liquid",
-   "Health": 3,
-   "Fire": 4,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Natural Gas, liquid",
+   "health": 3,
+   "fire": 4,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Nickel Carbonyl",
-   "Health": 4,
-   "Fire": 3,
-   "Reactivity": 3,
-   "Special": ""
+   "name": "Nickel Carbonyl",
+   "health": 4,
+   "fire": 3,
+   "reactivity": 3,
+   "special": ""
  },
  {
-   "Name": "Nickel Catalyst, dry",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 3,
-   "Special": ""
+   "name": "Nickel Catalyst, dry",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 3,
+   "special": ""
  },
  {
-   "Name": "Nitric Acid, >40%",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": "ox"
+   "name": "Nitric Acid, >40%",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 0,
+   "special": "ox"
  },
  {
-   "Name": "Nitric Acid, fuming",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": "ox"
+   "name": "Nitric Acid, fuming",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 1,
+   "special": "ox"
  },
  {
-   "Name": "Nitroaniline, p-",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Nitroaniline, p-",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Nitrobenzene, liquid",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Nitrobenzene, liquid",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Nitrocellulose, alcohol wet",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Nitrocellulose, alcohol wet",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Nitrocellulose, colloided",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Nitrocellulose, colloided",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Nitrocellulose, water wet",
-   "Health": 1,
-   "Fire": 2,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Nitrocellulose, water wet",
+   "health": 1,
+   "fire": 2,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Nitrochlorobenzene",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Nitrochlorobenzene",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Nitroethane",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 3,
-   "Special": ""
+   "name": "Nitroethane",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 3,
+   "special": ""
  },
  {
-   "Name": "Nitrogen oxides",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": "ox"
+   "name": "Nitrogen oxides",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 0,
+   "special": "ox"
  },
  {
-   "Name": "Nitrogen, refrig liquid",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Nitrogen, refrig liquid",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Nitromethane",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 4,
-   "Special": ""
+   "name": "Nitromethane",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 4,
+   "special": ""
  },
  {
-   "Name": "Nitrophenol, p-",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Nitrophenol, p-",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Nitropropane",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Nitropropane",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Nitrotoluene, o-, m-, p-",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Nitrotoluene, o-, m-, p-",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Octane",
-   "Health": 0,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Octane",
+   "health": 0,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Octyl alcohol",
-   "Health": 1,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Octyl alcohol",
+   "health": 1,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Oxalic Acid, dihydrate",
-   "Health": 2,
-   "Fire": 1,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Oxalic Acid, dihydrate",
+   "health": 2,
+   "fire": 1,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Oxygen, gas",
-   "Health": 0,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": "ox"
+   "name": "Oxygen, gas",
+   "health": 0,
+   "fire": 0,
+   "reactivity": 0,
+   "special": "ox"
  },
  {
-   "Name": "Oxygen, liquid",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": "ox"
+   "name": "Oxygen, liquid",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 0,
+   "special": "ox"
  },
  {
-   "Name": "Paraformaldehyde",
-   "Health": 2,
-   "Fire": 1,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Paraformaldehyde",
+   "health": 2,
+   "fire": 1,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Paraldehyde",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Paraldehyde",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Pentaborane",
-   "Health": 4,
-   "Fire": 4,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Pentaborane",
+   "health": 4,
+   "fire": 4,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Pentachlorophenol",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Pentachlorophenol",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Pentane",
-   "Health": 1,
-   "Fire": 4,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Pentane",
+   "health": 1,
+   "fire": 4,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Pentanol, 1-",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Pentanol, 1-",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Pentanol, 2-",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Pentanol, 2-",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Pentanol, 3-",
-   "Health": 1,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Pentanol, 3-",
+   "health": 1,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Pentenel, 1-",
-   "Health": 1,
-   "Fire": 4,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Pentenel, 1-",
+   "health": 1,
+   "fire": 4,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Peracetic Acid >40%",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 4,
-   "Special": "ox"
+   "name": "Peracetic Acid >40%",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 4,
+   "special": "ox"
  },
  {
-   "Name": "Perchloric Acid (>50%>72%)",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 3,
-   "Special": "ox"
+   "name": "Perchloric Acid (>50%>72%)",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 3,
+   "special": "ox"
  },
  {
-   "Name": "Petroleum crude",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Petroleum crude",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Petroleum ether",
-   "Health": 1,
-   "Fire": 4,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Petroleum ether",
+   "health": 1,
+   "fire": 4,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Phenol",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Phenol",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Phenylethanolamine",
-   "Health": 2,
-   "Fire": 1,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Phenylethanolamine",
+   "health": 2,
+   "fire": 1,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Phenylmercuric Acetate, dry",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Phenylmercuric Acetate, dry",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Phenylmercuric Acetate, organic",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Phenylmercuric Acetate, organic",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Phosphorus Oxychloride",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Phosphorus Oxychloride",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Phosphorus Pentachloride",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Phosphorus Pentachloride",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Phosphorus Pentasulfide",
-   "Health": 2,
-   "Fire": 1,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Phosphorus Pentasulfide",
+   "health": 2,
+   "fire": 1,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Phosphorus Tribromide",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Phosphorus Tribromide",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Phosphorus Trichloride",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Phosphorus Trichloride",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Phosphorus, amorphous, red",
-   "Health": 1,
-   "Fire": 1,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Phosphorus, amorphous, red",
+   "health": 1,
+   "fire": 1,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Phthalic Anhydride",
-   "Health": 2,
-   "Fire": 1,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Phthalic Anhydride",
+   "health": 2,
+   "fire": 1,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Picric Acid, 10% water",
-   "Health": 3,
-   "Fire": 4,
-   "Reactivity": 4,
-   "Special": ""
+   "name": "Picric Acid, 10% water",
+   "health": 3,
+   "fire": 4,
+   "reactivity": 4,
+   "special": ""
  },
  {
-   "Name": "Polychlorinated Biphenyls",
-   "Health": 2,
-   "Fire": 1,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Polychlorinated Biphenyls",
+   "health": 2,
+   "fire": 1,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Potassium Chlorate",
-   "Health": 1,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": "ox"
+   "name": "Potassium Chlorate",
+   "health": 1,
+   "fire": 0,
+   "reactivity": 1,
+   "special": "ox"
  },
  {
-   "Name": "Potassium Cyanide, solid",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Potassium Cyanide, solid",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Potassium Dichloro-s-Triazinetrione",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 2,
-   "Special": "ox"
+   "name": "Potassium Dichloro-s-Triazinetrione",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 2,
+   "special": "ox"
  },
  {
-   "Name": "Potassium Hydroxide",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Potassium Hydroxide",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Potassium Perchlorate",
-   "Health": 1,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": "ox"
+   "name": "Potassium Perchlorate",
+   "health": 1,
+   "fire": 0,
+   "reactivity": 1,
+   "special": "ox"
  },
  {
-   "Name": "Potassium Peroxide",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": "ox"
+   "name": "Potassium Peroxide",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 1,
+   "special": "ox"
  },
  {
-   "Name": "Potassium Sulfide",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Potassium Sulfide",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Potassium, metal",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Potassium, metal",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Propargyl Alcohol",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 3,
-   "Special": ""
+   "name": "Propargyl Alcohol",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 3,
+   "special": ""
  },
  {
-   "Name": "Propionaldehyde",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Propionaldehyde",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Propionic Acid",
-   "Health": 2,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Propionic Acid",
+   "health": 2,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Propionic Anhydride",
-   "Health": 2,
-   "Fire": 2,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Propionic Anhydride",
+   "health": 2,
+   "fire": 2,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Propyl Nitrate",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 3,
-   "Special": "ox"
+   "name": "Propyl Nitrate",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 3,
+   "special": "ox"
  },
  {
-   "Name": "Propyl acetate",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Propyl acetate",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Propylamine, n-",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Propylamine, n-",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Propylene",
-   "Health": 1,
-   "Fire": 4,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Propylene",
+   "health": 1,
+   "fire": 4,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Propylene Dichloride",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Propylene Dichloride",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Propylene Oxide",
-   "Health": 4,
-   "Fire": 2,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Propylene Oxide",
+   "health": 4,
+   "fire": 2,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Propyltrichlorosilane",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Propyltrichlorosilane",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Pyridine",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Pyridine",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Pyroxylin Plastic",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Pyroxylin Plastic",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Silane",
-   "Health": 2,
-   "Fire": 4,
-   "Reactivity": 3,
-   "Special": ""
+   "name": "Silane",
+   "health": 2,
+   "fire": 4,
+   "reactivity": 3,
+   "special": ""
  },
  {
-   "Name": "Silane, (4-Aminobutyl)-Diethoxymethyl",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Silane, (4-Aminobutyl)-Diethoxymethyl",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Silicon Tetrachloride",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Silicon Tetrachloride",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Silicon Tetrafluoride",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Silicon Tetrafluoride",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Sodium Chlorate",
-   "Health": 1,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": "ox"
+   "name": "Sodium Chlorate",
+   "health": 1,
+   "fire": 0,
+   "reactivity": 1,
+   "special": "ox"
  },
  {
-   "Name": "Sodium Chlorite",
-   "Health": 1,
-   "Fire": 1,
-   "Reactivity": 1,
-   "Special": "ox"
+   "name": "Sodium Chlorite",
+   "health": 1,
+   "fire": 1,
+   "reactivity": 1,
+   "special": "ox"
  },
  {
-   "Name": "Sodium Cyanide",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Sodium Cyanide",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Sodium Dichloro-s-Triazinetrione and Dihydra",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": "w, ox"
+   "name": "Sodium Dichloro-s-Triazinetrione and Dihydra",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 2,
+   "special": "w, ox"
  },
  {
-   "Name": "Sodium Fluoride",
-   "Health": 2,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Sodium Fluoride",
+   "health": 2,
+   "fire": 0,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Sodium Hydride",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Sodium Hydride",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Sodium Hydrosulfite",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Sodium Hydrosulfite",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Sodium Hydroxide",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Sodium Hydroxide",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Sodium Perchlorate",
-   "Health": 2,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": "ox"
+   "name": "Sodium Perchlorate",
+   "health": 2,
+   "fire": 0,
+   "reactivity": 1,
+   "special": "ox"
  },
  {
-   "Name": "Sodium Peroxide",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": "ox"
+   "name": "Sodium Peroxide",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 1,
+   "special": "ox"
  },
  {
-   "Name": "Sodium Potassium Alloys",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Sodium Potassium Alloys",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Sodium Sulfide, anhydrous",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Sodium Sulfide, anhydrous",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Sodium, metal",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Sodium, metal",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Stibine",
-   "Health": 3,
-   "Fire": 4,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Stibine",
+   "health": 3,
+   "fire": 4,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Styrene monomer, inhibited",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Styrene monomer, inhibited",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Sulfur Dioxide",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Sulfur Dioxide",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Sulfur Monochloride",
-   "Health": 2,
-   "Fire": 1,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Sulfur Monochloride",
+   "health": 2,
+   "fire": 1,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Sulfur, dry",
-   "Health": 1,
-   "Fire": 1,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Sulfur, dry",
+   "health": 1,
+   "fire": 1,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Sulfur, molten",
-   "Health": 2,
-   "Fire": 1,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Sulfur, molten",
+   "health": 2,
+   "fire": 1,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Sulfuric Acid",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Sulfuric Acid",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Sulfuryl Chloride",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Sulfuryl Chloride",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Tetrachloroethylene",
-   "Health": 2,
-   "Fire": 0,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Tetrachloroethylene",
+   "health": 2,
+   "fire": 0,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Tetrafluorethylene (monomer, inhibited)",
-   "Health": 2,
-   "Fire": 4,
-   "Reactivity": 3,
-   "Special": ""
+   "name": "Tetrafluorethylene (monomer, inhibited)",
+   "health": 2,
+   "fire": 4,
+   "reactivity": 3,
+   "special": ""
  },
  {
-   "Name": "Tetrahydrofuran",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Tetrahydrofuran",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Tetrahydronaphthalene",
-   "Health": 1,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Tetrahydronaphthalene",
+   "health": 1,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Tetramethoxysilane",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Tetramethoxysilane",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Thionyl Chloride",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Thionyl Chloride",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Tin Tetrachloride, anhydrous",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Tin Tetrachloride, anhydrous",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Titanium Tetrachloride",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Titanium Tetrachloride",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Toluene",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Toluene",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Toluene, 2, 4-Disocyanate",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Toluene, 2, 4-Disocyanate",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Toluidine, o-",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Toluidine, o-",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Toluidine, p-",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Toluidine, p-",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Tributylamine",
-   "Health": 3,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Tributylamine",
+   "health": 3,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Trichloroethane, 1, 1, 2-",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Trichloroethane, 1, 1, 2-",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Trichloroethylene",
-   "Health": 2,
-   "Fire": 2,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Trichloroethylene",
+   "health": 2,
+   "fire": 2,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Trichloroisocyanuric Acid",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 2,
-   "Special": "ox"
+   "name": "Trichloroisocyanuric Acid",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 2,
+   "special": "ox"
  },
  {
-   "Name": "Trichlorosilane",
-   "Health": 3,
-   "Fire": 4,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Trichlorosilane",
+   "health": 3,
+   "fire": 4,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Triethylaluminum",
-   "Health": 3,
-   "Fire": 4,
-   "Reactivity": 3,
-   "Special": "w"
+   "name": "Triethylaluminum",
+   "health": 3,
+   "fire": 4,
+   "reactivity": 3,
+   "special": "w"
  },
  {
-   "Name": "Triethylamine",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Triethylamine",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Triisobutylaluminum",
-   "Health": 3,
-   "Fire": 4,
-   "Reactivity": 3,
-   "Special": "w"
+   "name": "Triisobutylaluminum",
+   "health": 3,
+   "fire": 4,
+   "reactivity": 3,
+   "special": "w"
  },
  {
-   "Name": "Trimethoxxysilane",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Trimethoxxysilane",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Trimethylamine",
-   "Health": 3,
-   "Fire": 4,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Trimethylamine",
+   "health": 3,
+   "fire": 4,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Tripentylamine",
-   "Health": 2,
-   "Fire": 1,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Tripentylamine",
+   "health": 2,
+   "fire": 1,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Turpentine",
-   "Health": 1,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Turpentine",
+   "health": 1,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Vanadium Tetrachloride",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Vanadium Tetrachloride",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 2,
+   "special": "w"
  },
  {
-   "Name": "Vinyl Acetate",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Vinyl Acetate",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Vinyl Acetylene",
-   "Health": 2,
-   "Fire": 4,
-   "Reactivity": 3,
-   "Special": ""
+   "name": "Vinyl Acetylene",
+   "health": 2,
+   "fire": 4,
+   "reactivity": 3,
+   "special": ""
  },
  {
-   "Name": "Vinyl Chloride",
-   "Health": 2,
-   "Fire": 4,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Vinyl Chloride",
+   "health": 2,
+   "fire": 4,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Vinyl Ether",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Vinyl Ether",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Vinylidene Chloride, inhibited",
-   "Health": 2,
-   "Fire": 4,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Vinylidene Chloride, inhibited",
+   "health": 2,
+   "fire": 4,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Vinyltoluene",
-   "Health": 2,
-   "Fire": 2,
-   "Reactivity": 2,
-   "Special": ""
+   "name": "Vinyltoluene",
+   "health": 2,
+   "fire": 2,
+   "reactivity": 2,
+   "special": ""
  },
  {
-   "Name": "Xylenes, o-, m-, p-",
-   "Health": 2,
-   "Fire": 3,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Xylenes, o-, m-, p-",
+   "health": 2,
+   "fire": 3,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Zylidine, o-",
-   "Health": 3,
-   "Fire": 1,
-   "Reactivity": 0,
-   "Special": ""
+   "name": "Zylidine, o-",
+   "health": 3,
+   "fire": 1,
+   "reactivity": 0,
+   "special": ""
  },
  {
-   "Name": "Zine Chlorate",
-   "Health": 1,
-   "Fire": 0,
-   "Reactivity": 1,
-   "Special": "ox"
+   "name": "Zine Chlorate",
+   "health": 1,
+   "fire": 0,
+   "reactivity": 1,
+   "special": "ox"
  },
  {
-   "Name": "Zine Phosphide",
-   "Health": 3,
-   "Fire": 3,
-   "Reactivity": 1,
-   "Special": ""
+   "name": "Zine Phosphide",
+   "health": 3,
+   "fire": 3,
+   "reactivity": 1,
+   "special": ""
  },
  {
-   "Name": "Zirconium Tetrachloride",
-   "Health": 3,
-   "Fire": 0,
-   "Reactivity": 2,
-   "Special": "w"
+   "name": "Zirconium Tetrachloride",
+   "health": 3,
+   "fire": 0,
+   "reactivity": 2,
+   "special": "w"
  }
 ]
