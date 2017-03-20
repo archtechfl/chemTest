@@ -12,6 +12,7 @@ import {
   View,
   Picker,
   Dimensions,
+  TouchableOpacity,
 } from 'react-native';
 
 // Import chemical database
@@ -67,10 +68,38 @@ class HazmatSymbol extends Component {
     render() {
         return (
             <View style={styles.hazmat}>
-              <View style={[styles.hazmatInnerSquare, styles.hazmatFlammability]}><Text style={styles.hazmatText}>{this.props.chemical.fire}</Text></View>
-              <View style={[styles.hazmatInnerSquare, styles.hazmatReactivity]}><Text style={styles.hazmatText}>{this.props.chemical.reactivity}</Text></View>
-              <View style={[styles.hazmatInnerSquare, styles.hazmatHealth]}><Text style={styles.hazmatText}>{this.props.chemical.health}</Text></View>
-              <View style={[styles.hazmatInnerSquare, styles.hazmatSpecial]}><Text style={[styles.hazmatText, styles.hazmatSpecialText]}>{this.props.chemical.special}</Text></View>
+              <TouchableOpacity
+                activeOpacity={0.5} 
+                style={[styles.hazmatInnerSquare, styles.hazmatFlammability]}
+                onPress={() => {
+                    console.log("Tapped flammability level");
+                }}>
+                <Text style={styles.hazmatText}>{this.props.chemical.fire}</Text>
+              </TouchableOpacity>
+              <TouchableOpacity 
+                activeOpacity={0.5}
+                style={[styles.hazmatInnerSquare, styles.hazmatReactivity]}
+                onPress={() => {
+                    console.log("Tapped reactivity level");
+                }}>
+                <Text style={styles.hazmatText}>{this.props.chemical.reactivity}</Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.5} 
+                style={[styles.hazmatInnerSquare, styles.hazmatHealth]}
+                onPress={() => {
+                    console.log("Tapped health level");
+                }}>
+                <Text style={styles.hazmatText}>{this.props.chemical.health}</Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.5} 
+                style={[styles.hazmatInnerSquare, styles.hazmatSpecial]}
+                onPress={() => {
+                    console.log("Tapped special notes");
+                }}>
+                <Text style={[styles.hazmatText, styles.hazmatSpecialText]}>{this.props.chemical.special}</Text>
+              </TouchableOpacity>
             </View>
         )
     }
