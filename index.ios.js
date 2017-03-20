@@ -22,7 +22,7 @@ export default class GeneralPlayground extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      chemical: {}
+      chemical: chemicals[0]
     };
     this._getChemical = this._getChemical.bind(this);
   }
@@ -61,7 +61,7 @@ class HazmatSymbol extends Component {
     }
 
     componentDidMount(){
-      console.log("component mounted");
+      console.log("HazmatSymbol did mount");
     }
 
     render() {
