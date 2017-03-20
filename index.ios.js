@@ -24,20 +24,28 @@ export default class GeneralPlayground extends Component {
     this.state = {
       chemical: {}
     };
+    this._getChemical = this._getChemical.bind(this);
+  }
+
+  _getChemical(value){
+    let selectedChemical = chemicals.filter(chemical => chemical.name === value);
+    if (selectedChemical.length === 1) {
+      this.setState({chemical: selectedChemical[0]});
+    } else {
+      this.setState({chemical: {}});
+    }
   }
 
   render() {
 
-    let chemicalSelected = this.state.chemical;
-
     return (
       <View style={styles.container}>
         <Picker
-          selectedValue={chemicalSelected}
-          onValueChange={(value) => this.setState({chemical: value})}
+          selectedValue={this.state.chemical.name}
+          onValueChange={(value) => this._getChemical(value)}
           style={{width: Dimensions.get('window').width * 1, height: 100, position: 'relative', top: -150}}>
             {chemicals.map((chemical, index) => {
-              return <Picker.Item label={chemical.name} value={chemical} key={index} />
+              return <Picker.Item label={chemical.name} value={chemical.name} key={index} />
             })}
         </Picker>
         <HazmatSymbol chemical={this.state.chemical}/>
@@ -47,6 +55,15 @@ export default class GeneralPlayground extends Component {
 }
 
 class HazmatSymbol extends Component {
+
+    constructor(props) {
+      super(props);
+    }
+
+    componentDidMount(){
+      console.log("component mounted");
+    }
+
     render() {
         return (
             <View style={styles.hazmat}>
