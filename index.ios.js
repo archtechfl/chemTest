@@ -13,17 +13,20 @@ import {
   Picker,
   Dimensions,
   TouchableOpacity,
+  ScrollView,
 } from 'react-native';
 
 // Import chemical database
 import { chemicals } from './data/chemData.js'
+import { descriptions } from './data/descriptions.js'
 
 export default class GeneralPlayground extends Component {
 
   constructor(props) {
     super(props);
     this.state = {
-      chemical: chemicals[0]
+      chemical: chemicals[0],
+      activeDescription: ""
     };
     this._getChemical = this._getChemical.bind(this);
   }
@@ -37,19 +40,31 @@ export default class GeneralPlayground extends Component {
     }
   }
 
+  _updateDescription(type){
+    let currentLevel = this.state.chemical[type];
+    this.setState({activeDescription: descriptions[type][currentLevel]});
+  }
+
   render() {
 
     return (
       <View style={styles.container}>
-        <Picker
-          selectedValue={this.state.chemical.name}
-          onValueChange={(value) => this._getChemical(value)}
-          style={{width: Dimensions.get('window').width * 1, height: 100, position: 'relative', top: -150}}>
-            {chemicals.map((chemical, index) => {
-              return <Picker.Item label={chemical.name} value={chemical.name} key={index} />
-            })}
-        </Picker>
-        <HazmatSymbol chemical={this.state.chemical}/>
+        <View style={{flex: 1, marginBottom: 30}}>
+          <Picker
+            selectedValue={this.state.chemical.name}
+            onValueChange={(value) => this._getChemical(value)}
+            style={{width: Dimensions.get('window').width * 1, height: 100 }}>
+              {chemicals.map((chemical, index) => {
+                return <Picker.Item label={chemical.name} value={chemical.name} key={index} />
+              })}
+          </Picker>
+        </View>
+        <View style={{flex: 1, marginBottom: 30}}>
+          <HazmatSymbol chemical={this.state.chemical} updateDescription={this._updateDescription.bind(this)}/>
+        </View>
+        <ScrollView style={{flex: 1}}>
+          <Text style={{padding: 20, fontSize: 18}}>{this.state.activeDescription}</Text>
+        </ScrollView>
       </View>
     );
   }
@@ -59,6 +74,8 @@ class HazmatSymbol extends Component {
 
     constructor(props) {
       super(props);
+      this.descriptions = descriptions;
+      this.updateDescription = this.props.updateDescription;
     }
 
     componentDidMount(){
@@ -72,33 +89,33 @@ class HazmatSymbol extends Component {
                 activeOpacity={0.5} 
                 style={[styles.hazmatInnerSquare, styles.hazmatFlammability]}
                 onPress={() => {
-                    console.log("Tapped flammability level");
+                    this.updateDescription("fire");
                 }}>
-                <Text style={styles.hazmatText}>{this.props.chemical.fire}</Text>
+                <Text ref="fire" style={styles.hazmatText}>{this.props.chemical.fire}</Text>
               </TouchableOpacity>
               <TouchableOpacity 
                 activeOpacity={0.5}
                 style={[styles.hazmatInnerSquare, styles.hazmatReactivity]}
                 onPress={() => {
-                    console.log("Tapped reactivity level");
+                    this.updateDescription("reactivity");
                 }}>
-                <Text style={styles.hazmatText}>{this.props.chemical.reactivity}</Text>
+                <Text ref="reactivity" style={styles.hazmatText}>{this.props.chemical.reactivity}</Text>
               </TouchableOpacity>
               <TouchableOpacity
                 activeOpacity={0.5} 
                 style={[styles.hazmatInnerSquare, styles.hazmatHealth]}
                 onPress={() => {
-                    console.log("Tapped health level");
+                    this.updateDescription("health");
                 }}>
-                <Text style={styles.hazmatText}>{this.props.chemical.health}</Text>
+                <Text ref="health" style={styles.hazmatText}>{this.props.chemical.health}</Text>
               </TouchableOpacity>
               <TouchableOpacity
                 activeOpacity={0.5} 
                 style={[styles.hazmatInnerSquare, styles.hazmatSpecial]}
                 onPress={() => {
-                    console.log("Tapped special notes");
+                    this.updateDescription("special");
                 }}>
-                <Text style={[styles.hazmatText, styles.hazmatSpecialText]}>{this.props.chemical.special}</Text>
+                <Text ref="special" style={[styles.hazmatText, styles.hazmatSpecialText]}>{this.props.chemical.special}</Text>
               </TouchableOpacity>
             </View>
         )
@@ -108,7 +125,7 @@ class HazmatSymbol extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
+    // justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: 'lightblue',
   },
