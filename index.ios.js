@@ -26,18 +26,30 @@ export default class GeneralPlayground extends Component {
     super(props);
     this.state = {
       chemical: chemicals[0],
-      activeDescription: ""
+      activeDescription: "",
+      hasLongDescription: false
     };
     this._getChemical = this._getChemical.bind(this);
+  }
+
+  componentDidMount() {
+    // Check chemical special notes length
+    this._checkDescriptionLength(this.state.chemical);
   }
 
   _getChemical(value){
     let selectedChemical = chemicals.filter(chemical => chemical.name === value);
     if (selectedChemical.length === 1) {
       this.setState({chemical: selectedChemical[0]});
+      this._checkDescriptionLength(selectedChemical[0]);
     } else {
       this.setState({chemical: {}});
     }
+  }
+
+  _checkDescriptionLength(chemical){
+    let hasMultipleNotes = chemical.special.match(/\s|\,/g) ? true : false;
+    this.setState({hasLongDescription: hasMultipleNotes});
   }
 
   _updateDescription(type){
@@ -60,7 +72,7 @@ export default class GeneralPlayground extends Component {
           </Picker>
         </View>
         <View style={{flex: 1, marginBottom: 30}}>
-          <HazmatSymbol chemical={this.state.chemical} updateDescription={this._updateDescription.bind(this)}/>
+          <HazmatSymbol chemical={this.state.chemical} hasLongDescription={this.state.hasLongDescription} updateDescription={this._updateDescription.bind(this)}/>
         </View>
         <ScrollView style={{flex: 1}}>
           <Text style={{padding: 20, fontSize: 18}}>{this.state.activeDescription}</Text>
@@ -76,10 +88,6 @@ class HazmatSymbol extends Component {
       super(props);
       this.descriptions = descriptions;
       this.updateDescription = this.props.updateDescription;
-    }
-
-    componentDidMount(){
-      console.log("HazmatSymbol did mount");
     }
 
     render() {
@@ -115,7 +123,7 @@ class HazmatSymbol extends Component {
                 onPress={() => {
                     this.updateDescription("special");
                 }}>
-                <Text ref="special" style={[styles.hazmatText, styles.hazmatSpecialText]}>{this.props.chemical.special}</Text>
+                <Text ref="special" style={[styles.hazmatText, styles.hazmatSpecialText, this.props.hasLongDescription && styles.longDescription]}>{this.props.chemical.special}</Text>
               </TouchableOpacity>
             </View>
         )
@@ -174,6 +182,12 @@ const styles = StyleSheet.create({
     position: 'relative',
     left: -2,
     top: -2
+  },
+  longDescription: {
+    fontSize: 18,
+    lineHeight: 18,
+    top: 10,
+    left: 8
   }
 });
 
