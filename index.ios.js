@@ -40,10 +40,17 @@ export default class GeneralPlayground extends Component {
   _getChemical(value){
     let selectedChemical = chemicals.filter(chemical => chemical.name === value);
     if (selectedChemical.length === 1) {
-      this.setState({chemical: selectedChemical[0]});
+      this.setState({
+        chemical: selectedChemical[0],
+        activeDescription: ""
+      });
       this._checkDescriptionLength(selectedChemical[0]);
     } else {
-      this.setState({chemical: {}});
+      this.setState({
+        chemical: {},
+        activeDescription: "",
+        hasLongDescription: false
+      });
     }
   }
 
